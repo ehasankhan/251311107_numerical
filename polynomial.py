@@ -31,6 +31,6 @@ for i in range(n+1):
 
 #step 5 : Plot
 plt.scatter(x, y, label = "Data Points")
-plt.plot(x, y_pred, color= "blue",label = f"Degree {n} fit")
+plt.plot(x, y_pred, color= "red",label = f"Degree {n} fit")
 plt.legend()
 plt.show()
