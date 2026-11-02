@@ -34,7 +34,7 @@ for x in x_value:
 
 plt.scatter(x_points, y_points, color="red", label="Data Points")
 
-plt.plot(x_value, y_value, color="green", label="Lagrange Polynomial")
+plt.plot(x_value, y_value, color="blue", label="Lagrange Polynomial")
 plt.xlabel("x")
 plt.ylabel("y")
 plt.title("Lagrange Interpolation")
@@ -42,7 +42,7 @@ plt.legend()
 plt.grid(True)
 
 #plt _Value
-plt.show()
+
 
 import pandas as pd
 df = pd.DataFrame({
@@ -51,3 +51,4 @@ df = pd.DataFrame({
     
 })
 print(df)
+plt.show()
