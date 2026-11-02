@@ -18,4 +18,4 @@ n = int(input("Enter number of intervals (n): "))
 #------ Calculation ---------
 print("=> By using Trapezoidal Rule: ")
 ans = trapezoidal_rule(Xo, Xn, n)
-print("Approximate integration :- {ans:.5f} ")
+print(f"Approximate integration :- {ans:.5f} ")
